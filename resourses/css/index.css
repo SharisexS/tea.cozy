@@ -1,0 +1,124 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: .9;
+}
+
+header {
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    background-color: black;
+    border: 1px solid red;
+}
+section {
+    border: 1px solid red;
+}
+
+
+/*Nav Section*/
+
+.logo-tea figure {
+display: flex;
+align-items: center;
+
+}
+.logo {
+    float: left;
+    height: 50px;
+    opacity: .7;
+}
+
+.cc {
+    margin-left: 30px;
+    padding-top: 15px;
+    padding-right: 23px;
+}
+nav ul {
+    margin: 0;
+    list-style: none;
+}
+
+nav a {
+    color: #b3b9c4;
+}
+
+#dd {
+    float: right;
+}
+
+
+.nav-container {
+    display: inline-block;
+    width: 100%;
+    position: fixed;
+}
+
+
+/*Background image*/
+
+.yy {
+    margin: 0 20px;
+    height: 700px;
+    text-align: center;
+    border: 1px solid red;
+    background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg);
+    background-size: cover;
+    
+}
+
+.zz{
+    background-color: black;
+    color: #b3b9c4;
+    
+    
+}
+
+
+.berryblitz {
+    height: 700px;
+    margin-bottom: 30px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+/*The tea cozy*/
+.aa {
+    color: #b3b3b3;
+    text-align: center;
+    width: 1000px;
+    border: 1px solid red;
+}
+
+.cozy-tea img {
+    height: 200px;
+    width: 300px;
+    display: flexbox;
+}
+
+.image-container {
+    justify-content: center;
+    border: 1px solid red;
+}
+
+.tea-container {
+    border: 1px solid red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
