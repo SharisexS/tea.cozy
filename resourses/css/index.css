@@ -9,13 +9,12 @@ html {
 header {
     border-bottom: 1px solid seashell;
     background-color: black;
-    border: 1px solid red;
     display: inline-block;
     width: 100%;
     height: 69px;
     position: fixed;
     top: 0px;
-}
+} 
 
 section {
     border: 1px solid red;
@@ -23,11 +22,6 @@ section {
 
 /*Nav Section*/
 
-.logo-tea figure {
-display: flex;
-align-items: center;
-
-}
 .logo {
     float: left;
     height: 50px;
@@ -35,87 +29,65 @@ align-items: center;
     padding-left: 10px
 }
 
-.cc {
-    margin-left: 30px;
-    padding-top: 15px;
-    padding-right: 23px;
-}
-nav ul {
-    margin: 0;
-    list-style: none;
-    color: #b3b9c4;
-}
-
-
-
-.cc li {
-    margin: 10px;
-    border: 1px solid red;
-    color: #b3b9c4;
-}
-
-#dd {
+.navigation {
     float: right;
+    height: 100%;
+    margin: 0 auto;
 }
 
+.navigation a {
+    color: #b3b9c4;
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 0px 20px;
+}
 
+.navigation li {
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+}
 
 /*Background image*/
 
 .background-image {
-    height: 700px;
-    margin: 0px 20px;
-    text-align: center;
-    border: 1px solid orange;
     background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg);
     background-size: cover;
-    
-}
-
-.zz{
-    background-color: black;
-    color: #b3b9c4;
-    display: flex;
-    width: 1000px;
+    background-position: center;
+    height: 700px;
+    width: 1200px;
+    margin: 40px auto;
+    display: flex
 }
 
 .item-mission {
+    margin: auto;
+    background-color: black;
+    width: 100%; 
     text-align: center;
-    background: black;
+    color: #b3b9c4;
 }
-
-.tea-container {
-    margin-top: 70px;
-}
-
+  
 /*The tea cozy*/
-
-.item-tea-month {
+.tea-container {
     text-align: center;
+    color: #b3b9c4;
+}
+.image-container {
+    display: inline-flex;
+    max-width: 1000px;
+    height: auto;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
 }
 
-figure .cozy-tea {
-    display: flex;
-}
-
-.cozy-tea img {
+.item-tea img {
     height: 200px;
     width: 300px;
-    margin: 10px;
-    justify-items: stretch;
+    padding: 10px 10px;
 }
-
-.image-container {
-    display: flex;
-    border: 1px solid red;
-}
-
-.tea-container {
-    border: 1px solid red;
-}
-
-
-
 
 
 
