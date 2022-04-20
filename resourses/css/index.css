@@ -7,15 +7,19 @@ html {
 }
 
 header {
-    height: 69px;
     border-bottom: 1px solid seashell;
     background-color: black;
     border: 1px solid red;
+    display: inline-block;
+    width: 100%;
+    height: 69px;
+    position: fixed;
+    top: 0px;
 }
+
 section {
     border: 1px solid red;
 }
-
 
 /*Nav Section*/
 
@@ -28,6 +32,7 @@ align-items: center;
     float: left;
     height: 50px;
     opacity: .7;
+    padding-left: 10px
 }
 
 .cc {
@@ -38,9 +43,14 @@ align-items: center;
 nav ul {
     margin: 0;
     list-style: none;
+    color: #b3b9c4;
 }
 
-nav a {
+
+
+.cc li {
+    margin: 10px;
+    border: 1px solid red;
     color: #b3b9c4;
 }
 
@@ -49,20 +59,14 @@ nav a {
 }
 
 
-.nav-container {
-    display: inline-block;
-    width: 100%;
-    position: fixed;
-}
-
 
 /*Background image*/
 
-.yy {
-    margin: 0 20px;
+.background-image {
     height: 700px;
+    margin: 0px 20px;
     text-align: center;
-    border: 1px solid red;
+    border: 1px solid orange;
     background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg);
     background-size: cover;
     
@@ -71,35 +75,38 @@ nav a {
 .zz{
     background-color: black;
     color: #b3b9c4;
-    
-    
+    display: flex;
+    width: 1000px;
 }
 
+.item-mission {
+    text-align: center;
+    background: black;
+}
 
-.berryblitz {
-    height: 700px;
-    margin-bottom: 30px;
-    margin: 10px;
-    display: flex;
-    justify-content: center;
+.tea-container {
+    margin-top: 70px;
 }
 
 /*The tea cozy*/
-.aa {
-    color: #b3b3b3;
+
+.item-tea-month {
     text-align: center;
-    width: 1000px;
-    border: 1px solid red;
+}
+
+figure .cozy-tea {
+    display: flex;
 }
 
 .cozy-tea img {
     height: 200px;
     width: 300px;
-    display: flexbox;
+    margin: 10px;
+    justify-items: stretch;
 }
 
 .image-container {
-    justify-content: center;
+    display: flex;
     border: 1px solid red;
 }
 
