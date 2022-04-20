@@ -16,9 +16,6 @@ header {
     top: 0px;
 } 
 
-section {
-    border: 1px solid red;
-}
 
 /*Nav Section*/
 
@@ -89,10 +86,56 @@ section {
     padding: 10px 10px;
 }
 
+/*locations*/
 
+.location-container {
+    text-align: center;
+    color: #b3b9c4;
+}
 
+.items-location {
+    background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    max-width: 1200px;
+    margin: 40px auto 0px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
+.location-name {
+    height: 300px;
+    width: 300px;
+    background-color: black;
+    margin: 15px 20px;
+    align-items: center;
+}
 
+/*contact*/
+.contact-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.item-email {
+    height: 200px;
+    width: 300px;
+    color: #b3b9c4;
+    margin: auto;
+}
+
+.contact-email {
+    text-align: center;
+}
+
+/*copyright*/
+.footer {
+    color: #b3b9c4;
+    margin: auto 20px;
+    text-align: left;
+}
 
 
 
